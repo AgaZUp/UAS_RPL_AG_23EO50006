@@ -1,0 +1,16 @@
+@startuml penjualan
+actor Kasir
+actor Pemilik
+
+usecase "Tambah Penjualan" as UC1
+usecase "Lihat Penjualan" as UC2
+usecase "Edit Penjualan" as UC3
+usecase "Hapus Penjualan" as UC4
+usecase "Lihat Laporan Penjualan" as UC3
+
+Kasir ---> UC1
+Kasir ---> UC2
+Kasir ---> UC3
+Kasir ---> UC4
+Pemilik ---> UC5
+@enduml
